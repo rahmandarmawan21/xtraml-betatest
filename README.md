@@ -33,6 +33,9 @@ Running the Tests
 To execute the automation tests, use the following command:
 npx playwright test or npx playwright test --ui
 
+Open test report use the following command:
+npx playwright show-report
+
 Test Framework
 The repository uses [insert testing framework, e.g., Cypress, Selenium, or Playwright] for automation. The scripts are written in [insert language, e.g., JavaScript/TypeScript] and organized to ensure modularity and maintainability.
 Folder Structure
