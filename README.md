@@ -31,14 +31,7 @@ Configure Environment:Ensure the test scripts are configured to point to the cor
 
 Running the Tests
 To execute the automation tests, use the following command:
-npm test
-
-This will run the test suite, which includes:
-
-Login tests
-Add-to-cart tests
-Checkout flow tests
-Logout tests
+npx playwright test or npx playwright test --ui
 
 Test Framework
 The repository uses [insert testing framework, e.g., Cypress, Selenium, or Playwright] for automation. The scripts are written in [insert language, e.g., JavaScript/TypeScript] and organized to ensure modularity and maintainability.
